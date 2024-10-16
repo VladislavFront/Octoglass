@@ -26,6 +26,10 @@
     flex-direction: column;
   }
 
+  .about-paragraph {
+    margin: 0;
+  }
+
   .cert-container {
     margin-top: 25px;
   }
