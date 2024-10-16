@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="shortcut icon" href="../img/icons/favicon.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/adaptive.css">
+
+  <title>Octoglass</title>
+
+</head>
+<body class="body">
+
+  <div class="burger-menu menu-closed">
+    <div class="burger-menu__closed-button" onclick="closedBurgerMenu()"></div>
+    <nav class="burger-menu__nav">
+      <ul class="burger-menu__nav-list">
+        <li><a href="#technology" class="burger-menu__nav-item" onclick="navItem()">Технология</a></li>
+        <li><a href="#options" class="burger-menu__nav-item" onclick="navItem()">Опции</a></li>
+        <li><a href="#about" class="burger-menu__nav-item" onclick="navItem()">О нас</a></li>
+        <li><a href="#contact" class="burger-menu__nav-item" onclick="navItem()">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header">
+    <a href="https://octoglass.ru/" target="_blank" class="logo"><img src="../img/icons/logo.png" alt="logo" class="logo__img"></a>
+    <nav class="nav-menu">
+      <ul class="nav-menu__list">
+        <li class="nav-menu__list-item"><a href="#technology" class="list-item__link">Технология</a></li>
+        <li class="nav-menu__list-item"><a href="#options" class="list-item__link">Опции</a></li>
+        <li class="nav-menu__list-item"><a href="#about" class="list-item__link">О нас</a></li>
+        <li class="nav-menu__list-item"><a href="#contact" class="list-item__link">Контакты</a></li>
+      </ul>
+    </nav>
+    <div class="burger-button" onclick="openBurgerMenu()">
+      <span class="burger-button__span"></span>
+    </div>
+    <a href="tel: +74993806911" target="_blank" class="header-phone">+7-499-380-6911</a>
+  </header>
+
+  <section class="section home-section">
+    <h1 class="home-title">
+      Автомобильная <br>
+      электротонировка Octoglass
+    </h1>
+  </section>
+
+  <section class="section" id="technology">
+    <h2 class="section-title">Как устроена электротонировка</h2>
+    <p class="paragraph">
+      Технология, применяемая АО «Октогласс» для изготовления «умного стекла» – органический полимерный электрохром, в основе которого лежат окислительно-восстановительные реакции органических молекул, протекающие под действием напряжения электрического тока. 
+      <br>
+      <br>
+      Конечный продукт является триплексом, непосредственно изготовленным из стекла, но с использованием электрохромного полимера. У стекла, используемого для триплекса, на внутренней поверхности присутствует токопроводящая подложка, совершенно невидимая глазу.
+      <br>
+      <br>
+      К триплексу подключаются контакты от специализированного контроллера, который позволяет управлять по желанию пользователя светопропусканием самого электрохромного стекла. Под действием электричества происходит как окраска стекла, так и его осветление.
+    </p>
+  </section>
+
+  <section class="section advantage-section">
+    <h2 class="section-title">Преимущества электротонировки</h2>
+    <ul class="advantage-electrotinting">
+
+      <li class="advantage-electrotinting__item">
+        <h3 class="advantage-number">01</h3>
+        <p class="advantage">
+          Обзорность 
+          <br>
+          <br>
+          Управляемая тонировка обеспечивает отличный обзор как в дневное, так и в ночное время суток.
+        </p>
+      </li>
+
+      <li class="advantage-electrotinting__item">
+        <h3 class="advantage-number">02</h3>
+        <p class="advantage">
+          Законность  
+          <br>
+          <br>
+          Полное соответствие Техническому регламенту ТС.
+        </p>
+      </li>
+
+      <li class="advantage-electrotinting__item">
+        <h3 class="advantage-number">03</h3>
+        <p class="advantage">
+          Безопасность  
+          <br>
+          <br>
+          Возможность принудительного тонирования окон на стоянке в целях безопасности.
+        </p>
+      </li>
+
+      <li class="advantage-electrotinting__item">
+        <h3 class="advantage-number">04</h3>
+        <p class="advantage">
+          Шумоизоляция  
+          <br>
+          <br>
+          Дополнительный акустический комфорт в салоне автомобиля.
+        </p>
+      </li>
+
+    </ul>
+  </section>
+
+  <section class="section" id="options">
+    <h2 class="section-title">Дополнительные опции</h2>
+    <ul class="options-list">
+      <li class="options-list__item">Управление кнопками, переключателями, пультами ДУ, по CAN-шине. </li>
+      <li class="options-list__item">Отсутствие УФ в салоне автомобиля. </li>
+      <li class="options-list__item">Защита от ИК излучения. </li>
+      <li class="options-list__item">Подключение по CAN-шине. </li>
+      <li class="options-list__item">Все стекло может быть выполнено в <a href="https://octoglass.ru/services__othertypes.html#aa" target="_blank" class="options-list__item-link">антивандальном исполнении.</a></li>
+    </ul>
+  </section>
+
+  <section class="section material-section">
+    <h2 class="section-title">Материалы</h2>
+    <div class="video-container">
+      <div class="video-container__video">
+        <center>
+          <iframe src="https://vk.com/video_ext.php?oid=-184437546&id=456239021&hd=1" class="video" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen=""></iframe>
+        </center>
+      </div>
+    </div>
+  </section>
+
+  <section class="section swiper-section ">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="../img/slider/slide1.jpg" alt="" width="556px" height="360px"></div>
+        <div class="swiper-slide"><img src="../img/slider/slide2.jpg" alt="" width="556px" height="360px"></div>
+        <div class="swiper-slide"><img src="../img/slider/slide3.jpg" alt="" width="556px" height="360px"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about-section" id="about">
+    <h2 class="section-title">О нас</h2>
+    <div class="content-container">
+      <p class="paragraph">
+        Компания Octoglass занимается исследовательской деятельностью в области электрохромных систем, проектированием и производством электрохромного стекла для автомобилей.
+        Вся наша продукция сертифицирована, а технологии защищены авторскими <a href="https://octoglass.ru/company.html" target="_blank" class="about-text__link"> свидетельствами. </a>
+      </p>
+      <div class="cert-container">
+        <img src="../img/about/cert-front.jpg" alt="" class="cert">
+        <img src="../img/about/cert-back.jpg" alt="" class="cert">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <h2 class="section-title">Наши контакты</h2>
+    <div class="work-container">
+      <div class="work-info-container">
+
+        <div class="work-info-container__item">
+          <h3 class="work-info-container__item-phone-title">Телефон</h3>
+          <a href="tel: +74993806911" target="_blank" class="work-info-container__item-phone">+7-499-380-6911</a>
+        </div>
+
+        <div class="work-info-container__item">
+          <h3 class="work-info-container__item-email-title">E-mail</h3>
+          <a href="email:sales@octoglass.ru" target="_blank" class="work-info-container__item-email">sales@octoglass.ru</a>
+        </div>
+
+        <div class="work-info-container__item">
+          <h3 class="work-info-container__item-messangers-title">Мессенджеры</h3> 
+          <div class="messangers-container">
+            <a href="https://t.me/Alvikz" target="_blank" class="messangers-container__item"><img src="../img/icons/telegram.png" alt="telegramm" class="messangers-container__item-img"></a>
+            <a href="https://wa.me/79055223868" target="_blank" class="messangers-container__item"><img src="../img/icons/whatsapp.png" alt="whatsapp" class="messangers-container__item-img"></a>
+            <a href="https://vk.me/octoglass" target="_blank" class="messangers-container__item"><img src="../img/icons/vk.png" alt="vKontacte" class="messangers-container__item-img"></a>
+          </div>
+        </div>
+
+        <div class="work-info-container__item">
+          <h3 class="work-info-container__item-time-work-title">Режим работы</h3>
+          <p class="work-info-container__item-time-work">Ежедневно с 8.00 до 21.00 (GMT+3)</p>
+        </div>
+
+      </div>
+      <form action="" class="contact-form">
+        <input type="text" class="input-form" placeholder="Ваше имя">
+        <input type="tel" class="input-form" placeholder="Ваш телефон">
+        <input type="email" class="input-form" placeholder="Ваша почта">
+        <textarea name="" id="" class="input-form textarea" placeholder="Сообщение"></textarea>
+        <button class="submit-button" type="submit">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="logo-container">
+      <img src="../img/icons/white-logo.png" alt="" class="footer-logo" width="100px" height="100px">
+      <a href="https://sk.ru/" target="_blank" class="footer-link"><img src="../img/icons/skruw.png" alt="" class="footer-logo" width="250px"></a>
+      <p class="logo-container-text">
+        © 2024 «OctoGlass» 
+        <br>
+        все права защищены
+        </p>
+    </div>
+    <div class="link-container">
+      <a href="https://octoglass.ru/" target="_blank" class="footer-link">octoglass.ru</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="../js/index.js"></script>
+</body>
+</html>
