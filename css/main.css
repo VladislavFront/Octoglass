@@ -285,7 +285,7 @@ body {
 .options-list__item-link {
   color: var(--accentColor);
   text-decoration: none;
-  /* margin-left: 10px; */
+  margin-left: 10px;
 }
 
 .material-section {
