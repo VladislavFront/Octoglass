@@ -34,6 +34,14 @@
     margin-top: 25px;
   }
 
+  .work-container {
+    flex-direction: column-reverse;
+  }
+
+  .work-info-container {
+    width: 670px;
+  }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -55,10 +63,6 @@
     width: 600px;
     height: 400px;
   }
-
-  /* .work-container {
-    flex-direction: column;
-  } */
 
 }
 
@@ -89,16 +93,12 @@
     height: 300px;
   }
 
-  .work-container {
-    flex-direction: column-reverse;
+  .contact-form-container > iframe {
+    width: 450px;
   }
 
   .work-info-container {
     width: 450px;
-  }
-
-  .submit-button {
-    margin: 25px 0 25px 0;
   }
 
   .footer {
@@ -146,16 +146,13 @@
     height: 200px;
   }
 
+  .contact-form-container > iframe {
+    width: 350px;
+    height: 850px;
+  }
+
   .work-info-container {
-    width: 300px;
-  }
-
-  .input-form {
-    width: 300px;
-  }
-
-  .submit-button {
-    width: 300px;
+    width: 350px;
   }
 
   @keyframes openBurgerMenu {
@@ -165,6 +162,19 @@
     to {
       margin-right: 0%;
     }
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  
+  .contact-form-container > iframe {
+    width: 280px;
+    height: 800px;
+  }
+
+  .work-info-container {
+    width: 280px;
   }
 
 }
