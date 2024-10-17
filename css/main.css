@@ -29,6 +29,7 @@ body {
   --backgroundColor: #1C1C1C;
   --footerBackgroundColor: #34343B;
   --blackColor: #000;
+  --formBackgroundColor: #fff;
 
   --transition: all .3s;
 }
@@ -388,7 +389,7 @@ body {
   margin: 0 15px 0 0;
 }
 
-.contact-form {
+/* .contact-form {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -431,6 +432,15 @@ body {
 
 .submit-button:hover {
   color: var(--bacgkroundColor);
+} */
+
+.contact-form-container {
+  padding: 20px 20px 0 0;
+  background-color: var(--formBackgroundColor);
+}
+
+.textarea {
+  resize: none;
 }
 
 .footer {
