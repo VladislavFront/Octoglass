@@ -436,11 +436,10 @@ body {
 
 .contact-form-container {
   padding: 20px 20px 0 0;
+  margin: 10px;
+  border-radius: 10px;
   background-color: var(--formBackgroundColor);
-}
-
-.textarea {
-  resize: none;
+  overflow: scroll;
 }
 
 .footer {
